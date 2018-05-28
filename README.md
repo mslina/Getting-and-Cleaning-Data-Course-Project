@@ -1,5 +1,8 @@
 # Getting-and-Cleaning-Data-Course-Project
 This repo contains required materials for Coursera's Getting and Cleaning Data Course Project (Week 4)
+
+Dataset for this project can be downloaded here: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ******************************************************************************************************
 Files for project submission:
 1. run_analysis.R
