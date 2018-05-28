@@ -1,3 +1,6 @@
+#load dplyr package
+library(dplyr)
+
 #after datasets are extracted to data folder in working directory, 
 #load following files on R:
 
