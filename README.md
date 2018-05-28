@@ -42,6 +42,7 @@ The analysis:
 12. Then, view merged dataset on data viewer. This is the first output of this analysis.
 13. For the second dataset, group rows by subject id and activity name and then calculate the average 
     of each variables per group. 
-14. Save the dataset as CSV file to working directory. Then open the file on data viewer.
+14. Save the dataset as TXT file to working directory. Then open the file on data viewer with argument
+    header = TRUE.
 15. Finally, remove all objects created for this analysis, except the outputs, to clear the environment.
 ******************************************************************************************************
