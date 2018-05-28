@@ -58,10 +58,10 @@ View(mastermerge)
 averagedata <- mastermerge %>% group_by(subject.id, activity.name) %>% summarise_all(mean)
 
 #save tidy dataset to working directory as csv file
-write.table(averagedata, file="tidydatamean.txt")
+write.table(averagedata, file="tidydatamean.txt", row.names = FALSE)
 
 #read saved tidy dataset back into R and open it on data viewer
-tidydatamean <- read.table("tidydatamean.txt")
+tidydatamean <- read.table("tidydatamean.txt", header = TRUE)
 View(tidydatamean)
 
 #remove files used in the analysis from environment
